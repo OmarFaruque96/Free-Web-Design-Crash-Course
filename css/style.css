@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background-color: white;
+	padding: 60px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.navbar{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.menus{
+	text-align: right;	
+}
+.menus ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px; 
+}
+.menus ul li a{
+	font-family: 'Poppins', sans-serif;
+}
+.menubtn{
+	padding: 12px 28px;
+    color: white;
+    border-radius: 8px;
+    background: #75BF7A;
+}
+
+.banner{
+	background: #f5f5f5;
+}
+
+.banner-content{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+.banner-content h1{
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 66px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.banner-content p{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #9E9DA2;
+	margin-bottom: 62px;
+}
+
+.b-btn{
+	font-family: 'Poppins', sans-serif;
+	background: black;
+    color: white;
+    padding: 18px 42px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-right: 20px; 
+}
+
+.apply-form{
+	width: 100%;
+	padding: 80px 0px;
+}
+.apply-content{
+	display: grid;
+	grid-template-columns: auto auto;
+	background: #75BF7A;
+	padding: 40px 60px;
+	border-radius: 12px;
+}
+.af-left{
+	text-align: left;
+}
+.af-right{
+	text-align: right;
+}
+.af-left p{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+.form-control{
+	width: 440px;
+	height: 58px;
+	padding-left: 24px;
+	border: none;
+	border-radius: 6px;
+	margin-top: -4px;
+}
+.form-control:focus{
+	outline: none;
+}
+.form-control::placeholder{
+	font-family: 'Poppins', sans-serif;
+	color: #DADADA;
+	font-size: 16px;
+}
+/*.form-control:focus::placeholder{
+	color: red;
+}*/
+.apply-btn{
+	height: 59px;
+	width: 220px;
+	font-family: 'Poppins', sans-serif;
+	background: black;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-right: 20px; 
+    border: none;
+    margin-top: 2px;
+}
